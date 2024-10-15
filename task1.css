@@ -26,7 +26,7 @@ h1{
     background-color: darkgrey;
     padding: 15px 35px 15px 15px;
     border-radius: 7px;
-    border-color: black;
+    border-color: brown;
     border-width: 3px;
     border-style: solid;
     margin-left: 5px;
@@ -37,31 +37,31 @@ h1{
     color: aliceblue;
     padding: 20px;
     border-radius: 7px;
-    border-color: black;
+    border-color: brown;
     border-width: 3px;
     border-style: dashed;
     width: 60px;
-    text-shadow: 3px 0 blue;
+    text-shadow: 3px 0 black;
 }
 .butsym{
     background-color: crimson;
     color: aliceblue;
     padding: 20px;
     border-radius: 7px;
-    border-color: black;
+    border-color: brown;
     border-width: 3px;
     border-style: dotted;
     width: 60px;
-    text-shadow: 3px 0 blue;
+    text-shadow: 3px 0 black;
 }
 .butchar{
     background-color: darkgoldenrod;
     color: aliceblue;
     padding: 20px;
     border-radius: 7px;
-    border-color: black;
+    border-color: brown;
     border-width: 3px;
     border-style: dotted;
     width: 60px;
-    text-shadow: 3px 0 blue;
+    text-shadow: 3px 0 black;
 }
