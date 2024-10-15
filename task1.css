@@ -4,11 +4,15 @@ h1{
     font-size: 30px;
     font-weight: bold;
 }
+.in1{
+    background-color: rgb(31, 28, 28);
+}
 *{
     background-color: darkgray;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bold;
     font-size: 15px;
+    cursor: pointer;
 }
 .empty{
     background-color: darkgray;
