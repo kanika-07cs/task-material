@@ -1,7 +1,8 @@
 h1{
     color: midnightblue;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 30px;
+    font-size: 35px;
+    text-align: center;
     font-weight: bold;
 }
 .in1{
@@ -23,7 +24,7 @@ h1{
 }
 .in1 input{
     background-color: darkgrey;
-    padding: 10px 35px 10px 10px;
+    padding: 15px 35px 15px 15px;
     border-radius: 7px;
     border-color: black;
     border-width: 3px;
@@ -40,6 +41,7 @@ h1{
     border-width: 3px;
     border-style: dashed;
     width: 60px;
+    text-shadow: 3px 0 blue;
 }
 .butsym{
     background-color: crimson;
@@ -50,6 +52,7 @@ h1{
     border-width: 3px;
     border-style: dotted;
     width: 60px;
+    text-shadow: 3px 0 blue;
 }
 .butchar{
     background-color: darkgoldenrod;
@@ -60,4 +63,5 @@ h1{
     border-width: 3px;
     border-style: dotted;
     width: 60px;
+    text-shadow: 3px 0 blue;
 }
