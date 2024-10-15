@@ -41,7 +41,11 @@ h1{
     border-width: 3px;
     border-style: dashed;
     width: 60px;
-    text-shadow: 3px 0 black;
+    text-shadow: 3px 2px black;
+}
+.butnum:hover{
+    font-size: 30px;
+    color: rgb(203, 203, 79);
 }
 .butsym{
     background-color: crimson;
@@ -54,6 +58,10 @@ h1{
     width: 60px;
     text-shadow: 3px 0 black;
 }
+.butsym:hover{
+    font-size: 30px;
+    color: rgb(203, 203, 79);
+}
 .butchar{
     background-color: darkgoldenrod;
     color: aliceblue;
@@ -64,4 +72,8 @@ h1{
     border-style: dotted;
     width: 60px;
     text-shadow: 3px 0 black;
+}
+.butchar:hover{
+    font-size: 25px;
+    color: rgb(203, 203, 79);
 }
