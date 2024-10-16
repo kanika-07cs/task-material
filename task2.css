@@ -55,6 +55,7 @@ a:hover{
 }
 .fa-solid{
     font-size: 45px;
+    float:right;
     padding: 0;
 }
 .con label{
