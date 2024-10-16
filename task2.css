@@ -1,0 +1,113 @@
+*{
+    background-image: url("wallpaper-purple-blue.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+    color: aliceblue;
+    font-size: 15px;
+}
+.link{
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: none;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+a:hover{
+    color: blue;
+    font-size: 25px;
+}
+.in2{
+    color: darkblue;
+    background-image: none;
+    background-color: darkgrey;
+    float: right;
+    padding: 7px;
+    border-style: dotted;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-left: 50px;
+}
+.in2:hover{
+    background-color: rgb(84, 84, 182);
+    color: azure;
+}
+.in1{
+    padding: 3px;
+    margin-right: 50px;
+    background-image: none;
+    background-color: aliceblue;
+    border-radius: 5px;
+    text-align: left;
+    float: right;
+    color: black;
+}
+.main h2{
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 2px;
+}
+.main p{
+    max-width: 250px;
+    background-image: none;
+    font-size: 15px;
+    padding: 15px;
+}
+.con label{
+    background-image: none;
+    background-color: aliceblue;
+    color: black;
+    
+}
+.butt{
+    border: 3px dashed;
+    font-size: 30px;
+    margin-top: 1px;
+    border-radius: 5px;
+    background-image: none;
+    background-color: darkolivegreen;
+}
+.butt:hover{
+    background-color: darkmagenta;
+}
+.in6{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 2px;
+}
+.in3 img{
+    background-color: aliceblue;
+    width: 100%;
+}
+.in3 img:hover{
+    height: 300px;
+}
+.in4 p{
+    text-align: justify;
+    margin: 10px;
+    background-image: none;
+    background-color: aliceblue;
+    color: black;
+    padding: 4px;
+}
+.in4 p b{
+    background-image: none;
+    color: black;
+}
+.in5{
+    border: 3px dashed transparent;
+    margin-top: 1px;
+    border-radius: 5px;
+    background-image: none;
+    background-color: darkolivegreen;
+}
+.in5:hover{
+    background-color: darkmagenta;
+}
+.fa-brands{
+    padding: 5px;
+    font-size: 25px;
+}
+.fa-brands:hover{
+    font-size: 30px;
+}
