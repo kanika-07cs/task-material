@@ -44,3 +44,7 @@ add(5,6)
 let n_age=21;
 let vote=n_age>18? "eligible to vote":"not eligible to vote"
 console.log(vote)
+
+let display=new Date();
+console.log(display)
+console.log(display.getMinutes())
