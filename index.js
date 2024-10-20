@@ -48,3 +48,15 @@ console.log(vote)
 let display=new Date();
 console.log(display)
 console.log(display.getMinutes())
+
+//OOP's
+let person={
+    name:"Kanika",
+    age:18,
+    hobbies:["playing","reading","writing"],
+    greet:function(){
+        let msg="Hello,My name is "+this.name+". I am "+this.age+" years old.";
+        console.log(msg)
+    }
+};
+person.greet()
