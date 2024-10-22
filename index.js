@@ -2,7 +2,7 @@
 alert("Hello");
 console.log("New concept");
 */
-var name="kanika";
+/*var name="kanika";
 const dob="13-04-2007";
 let msg="Hello " + name +",How are you? I was born on" + dob;
 //best practice use of let->var
@@ -47,10 +47,10 @@ console.log(vote)
 
 let display=new Date();
 console.log(display)
-console.log(display.getMinutes())
+console.log(display.getMinutes())*/
 
 //OOP's
-let person={
+/*let person={
     name:"Kanika",
     age:18,
     hobbies:["playing","reading","writing"],
@@ -59,4 +59,38 @@ let person={
         console.log(msg)
     }
 };
+//arrays
 person.greet()
+var arr1=[["kani",17],["Bharathi",46]];
+console.log(arr1)
+arr1.push(["Anand",49]);
+console.log(arr1);*/
+
+//array->reduce method
+/*let num=[3,4,7,9,2];
+let result=num.reduce(function(preVal,curVal){
+    return preVal+curVal;
+},0);
+console.log(result);*/
+//fucntion->arguments
+/*function add(n1,n2,n3){
+    return n1+n2+n3;
+}
+let result=add(12,34,56,10); // considers only 3 elements
+console.log(`total cost:${result}`);*/
+/*function add(){
+    let total=0;
+    for(let values of arguments){
+        total+=values;}
+        return total;
+}
+let result=add(12,34,56,10); // considers all elements
+console.log(`total cost:${result}`);*/
+let student={
+    f_name:"kanika",
+    l_name:"Anand",
+    fullname:function(){
+        return `${student.f_name} ${student.l_name}`;
+    },
+};
+console.log(student.fullname());
